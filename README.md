@@ -6,6 +6,9 @@ Kubernetes The Hard Way is optimized for learning, which means taking the long r
 
 > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that stop you from learning!
 
+This is a fork from the extremely useful Kubernetes the Hard Way by Kelsey Hightower, using Oracle Cloud Infrastructure instead of Google Cloud Platform, and some parts are freely adapted from Dan Simone's work. However I wanted to recreate it to help my own learning process :-) 
+
+
 ## Copyright
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
@@ -23,7 +26,7 @@ The target audience for this tutorial is someone planning to support a productio
 
 Kubernetes The Hard Way guides you through bootstrapping a highly available Kubernetes cluster with end-to-end encryption between components and RBAC authentication.
 
-* [kubernetes](https://github.com/kubernetes/kubernetes) v1.21.0
+* [kubernetes](https://github.com/kubernetes/kubernetes) v1.28.2
 * [containerd](https://github.com/containerd/containerd) v1.4.4
 * [coredns](https://github.com/coredns/coredns) v1.8.3
 * [cni](https://github.com/containernetworking/cni) v0.9.1
@@ -31,7 +34,7 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 
 ## Labs
 
-This tutorial assumes you have access to the [Google Cloud Platform](https://cloud.google.com). While GCP is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
+This tutorial assumes you have access to [Oracle Cloud Infrastructure](https://www.oracle.com/cloud/) (OCI). While OCI is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [Installing the Client Tools](docs/02-client-tools.md)
