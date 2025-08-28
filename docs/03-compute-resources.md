@@ -195,7 +195,7 @@ At this point you should be able to SSH to each machine listed in the `machines.
 
 ```bash
 for host in server node-0 node-1
-   do ssh root@${host} hostname
+   do ssh -i .ssh/clusterA1.key ubuntu@${host} hostname
 done
 ```
 
